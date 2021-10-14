@@ -1,7 +1,7 @@
 library(latex2exp)
 
-q3 <- read.csv('train_dataQ3.csv')
-q3_test <- read.csv('test_dataQ3.csv')
+q3 <- read.csv('train.csv')
+q3_test <- read.csv('test.csv')
 
 plot(q3$x, q3$y)
 
