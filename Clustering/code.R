@@ -11,7 +11,7 @@ library(kernlab)
 
 set.seed(1351308)
 
-cw_data <- read.csv('/Users/lorenzwolf/Desktop/MSc Statistics/Electives/Machine Learning/Coursework 2/CW2Data.csv')
+cw_data <- read.csv('data.csv')
 head(cw_data)
 summary(cw_data)
 
